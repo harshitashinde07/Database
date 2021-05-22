@@ -8,10 +8,5 @@ BEGIN
       order by Salary desc
       limit 1
       offset N
-      
-      
-     
-
-      
-  );
+    );
 END
