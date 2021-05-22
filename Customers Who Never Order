@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+select c.Name as Customers
+from Customers c
+left join  Orders  on c.Id=Orders.Customerid
+where Orders.CustomerId IS NULL;
